@@ -52,25 +52,6 @@ The Flask application runs in one container, while MongoDB runs in a separate co
 
 MongoDB uses a Docker volume so that database data can persist independently of the MongoDB container.
 
-## Project Structure
-
-dockerized-webapp/
-│
-├── app/
-│   ├── static/
-│   │   └── style.css
-│   │
-│   ├── templates/
-│   │   └── index.html
-│   │
-│   ├── app.py
-│   └── requirements.txt
-│
-├── .dockerignore
-├── docker-compose.yml
-├── dockerfile
-└── README.md
-
 ### Important Files
 
 - "app.py" – Flask application source code.
