@@ -191,44 +191,6 @@ The project was verified by checking:
 - Flask application output.
 - MongoDB data persistence using the Docker volume.
 
-### Screenshots
-
-Figure 1 – Docker Compose Build and MongoDB Container
-
-"Figure 1 – Docker Compose Build and MongoDB Container" (Figure_1.jpg)
-
-Figure 2 – MongoDB Container Startup Logs
-
-"Figure 2 – MongoDB Container Startup Logs" (Figure_2.jpg)
-
-Figure 3 – Flask Application Source Code and Project Structure
-
-"Figure 3 – Flask Application Source Code and Project Structure" (Figure_3.jpg)
-
-Figure 4 – Docker Compose Container Lifecycle
-
-"Figure 4 – Docker Compose Container Lifecycle" (Figure_4.jpg)
-
-Figure 5 – Flask Application and MongoDB Integration
-
-"Figure 5 – Flask Application and MongoDB Integration" (Figure_5.jpg)
-
-Figure 6 – Final Output of the Dockerized Flask Application
-
-"Figure 6 – Final Output of the Dockerized Flask Application" (Figure_6.jpg)
-
-Figure 7 – Docker Images and Container Status
-
-"Figure 7 – Docker Images and Container Status" (Figure_7.jpg)
-
-Figure 8 – Docker Images Status
-
-"Figure 8 – Docker Images Status" (Figure_8.jpg)
-
-Figure 9 – Docker Desktop Container Resources
-
-"Figure 9 – Docker Desktop Container Resources" (Figure_9.jpg)
-
 ### Key Learning Outcomes
 
 Through this practical, I gained hands-on experience with:
