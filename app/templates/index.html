@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dockerized Web App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Dockerized Flask + MongoDB App</h1>
+
+        <form action="/add" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="text" name="message" placeholder="Your Message" required>
+            <button type="submit">Submit</button>
+        </form>
+
+        <h2>Messages</h2>
+        <ul>
+            {% for msg in messages %}
+                <li><strong>{{ msg.name }}</strong>: {{ msg.message }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>
